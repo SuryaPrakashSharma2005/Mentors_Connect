@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Demo Payment Page</title>
+  <link rel="stylesheet" href="payment.css" />
+</head>
+<body>
+  <div class="payment-container">
+    <h2>Payment Form</h2>
+    <form id="paymentForm">
+      <label>
+        Full Name:
+        <input type="text" name="fullName" required />
+      </label>
+      
+      <label>
+        Email Address:
+        <input type="email" name="email" required />
+      </label>
+      
+      <label>
+        Card Number:
+        <input type="text" name="cardNumber" maxlength="19" required placeholder="1234 5678 9012 3456"/>
+      </label>
+
+      <div class="row">
+        <label>
+          Expiry Date:
+          <input type="text" name="expiry" maxlength="5" required placeholder="MM/YY"/>
+        </label>
+        <label>
+          CVV:
+          <input type="text" name="cvv" maxlength="4" required />
+        </label>
+      </div>
+      
+      <label>
+        Amount (INR):
+        <input type="number" name="amount" min="1" required />
+      </label>
+
+      <button type="submit">Submit Payment</button>
+    </form>
+    <div id="confirmation"></div>
+  </div>
+
+  <script src="payment.js"></script>
+</body>
+</html>

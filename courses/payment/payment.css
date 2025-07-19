@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f3fa; /* Light lavender background */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.payment-container {
+  background: #ffffff; /* Pure white container */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(153, 102, 204, 0.2); /* Soft purple shadow */
+  max-width: 400px;
+  width: 90%;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #5c4d7d; /* Deep lavender heading */
+}
+
+form label {
+  display: block;
+  margin-bottom: 15px;
+  font-weight: 600;
+  color: #6b5b95; /* Lavender text for labels */
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  box-sizing: border-box;
+  border: 1px solid #cdbfe3; /* Light purple border */
+  border-radius: 5px;
+  background-color: #f9f7fc; /* Very light lavender background */
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.row label {
+  flex: 1;
+}
+
+button {
+  background-color: #d9b3ff; /* Light lavender button */
+  color: #5c4d7d; /* Deep lavender text */
+  padding: 12px;
+  width: 100%;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 15px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #c299ff; /* Slightly darker lavender on hover */
+  transform: scale(1.02);
+}
+
+#confirmation {
+  margin-top: 20px;
+  color: #6b8e23; /* Olive green confirmation text */
+  font-weight: bold;
+  text-align: center;
+}

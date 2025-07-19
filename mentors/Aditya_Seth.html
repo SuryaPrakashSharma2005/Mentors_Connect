@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mentor Profile</title>
+  <link rel="script" href="script1.js"/>
+  <link rel="stylesheet" href="style1.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+
+  <section class="mentor-profile">
+    <div class="profile-header">
+      <img src="Aditya_Seth.jpeg" alt="Mentor Photo" class="mentor-photo" />
+      <div class="mentor-info">
+        <h1>Aaditya Sheth</h1>
+        <p class="mentor-title">Health and Wellness (more in collagen)</p>
+        <p class="mentor-bio">Aaditya has over 7 years of experience helping peoples to achieve better health and explaining in depth details about the positive and negetive aspects of collagen accordingly</p>
+      </div>
+    </div>
+
+    <div class="rating-section">
+      <h2>Rating</h2>
+      <div class="star-rating">
+        <span class="fa fa-star" data-rating="1"></span>
+        <span class="fa fa-star" data-rating="2"></span>
+        <span class="fa fa-star" data-rating="3"></span>
+        <span class="fa fa-star" data-rating="4"></span>
+        <span class="fa fa-star" data-rating="5"></span>
+      </div>
+      <p id="rating-value">Average Rating: 4.5</p>
+    </div>
+
+    <div class="reviews-section">
+      <h2>What Learners Are Saying</h2>
+      <div class="review">
+        <p>"Aaditya's guidance was invaluable in helping me switch careers successfully."</p>
+        <p class="reviewer">– Surya Prakash</p>
+      </div>
+      <div class="review">
+        <p>"His insights and advice gave me the confidence to pursue my goals."</p>
+        <p class="reviewer">– Priya Singh</p>
+      </div>
+      <div class="review">
+        <p>"I highly recommend Aaditya to anyone looking for career direction."</p>
+        <p class="reviewer">– Bruce Lee</p>
+      </div>
+    </div>
+
+    <div class="booking-section">
+      <h2>Book a Session</h2>
+      <form id="booking-form">
+        <label for="session-date">Select a Date:</label>
+        <input type="date" id="session-date" name="session-date" required />
+        <a href="payment/payment.html"><button type="submit">Book Now</button></a>
+      </form>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
