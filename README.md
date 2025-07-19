@@ -26,7 +26,7 @@ Created as my first front-end GitHub project, this single-page website demonstra
 ---
 
 ## Demo
-*Live demo coming soon via GitHub Pages!*
+https://SuryaPrakashSharma2005.github.io/Mentors_Connect
 
 ---
 
