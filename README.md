@@ -54,7 +54,7 @@ No build tools required—just a modern browser.
 
 ### Installation
 1. Clone the repo:  
-   `git clone https://github.com/your-username/mentorship-platform.git`  
+   `git clone https://github.com/SuryaPrakashSharma2005/mentorship-platform.git`  
 2. Navigate into the folder:  
    `cd mentorship-platform`  
 3. Open `index.html` in your browser.
